@@ -10,7 +10,7 @@ import QuestionTwo from "./pages/QuestionTwo";
 import QuestionThree from "./pages/QuestionThree";
 import QuestionFour from "./pages/QuestionFour";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <Router>
